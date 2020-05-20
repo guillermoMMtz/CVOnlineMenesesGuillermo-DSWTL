@@ -11,27 +11,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #1abc9c;
-  --cyan: #17a2b8;
+  --blue: #FFFFFF;
+  --indigo: #FFFFFF;
+  --purple: #FFFFFF;
+  --pink: #FFFFFF;
+  --red: #FFFFFF;
+  --orange: #FFFFFF;
+  --yellow: #FFFFFF;
+  --green: #FFFFFF;
+  --teal: #FFFFFF;
+  --cyan: #FFFFFF;
   --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #1abc9c;
-  --secondary: #2c3e50;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
+  --gray: #ffffff;
+  --gray-dark: #ffffff;
+  --primary: #FFFFFF;
+  --secondary: #FFFFFF;
+  --success: #ffffff;
+  --info: #ffffff;
+  --warning: #ffffff;
+  --danger: #ffffff;
+  --light: #ffffff;
+  --dark: #ffffff;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -56,6 +56,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+
 }
 
 body {
@@ -64,9 +65,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #FFFFFF;
   text-align: left;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,7 +160,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -3889,6 +3890,8 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
+  
 }
 
 .nav-link {
@@ -3946,13 +3949,13 @@ input[type=button].btn-block {
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .nav-justified .nav-item {
   flex-basis: 0;
   flex-grow: 1;
-  text-align: center;
+  text-align: left;
 }
 
 .tab-content > .tab-pane {
@@ -3969,6 +3972,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -3980,6 +3984,8 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  
 }
 .navbar-brand {
   display: inline-block;
@@ -3989,6 +3995,7 @@ input[type=button].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4000,6 +4007,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 .navbar-nav .nav-link {
   padding-right: 0;
@@ -4022,6 +4030,7 @@ input[type=button].btn-block {
   align-items: center;
 }
 
+
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -4029,7 +4038,9 @@ input[type=button].btn-block {
   background-color: transparent;
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
+  
 }
+
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
 }
@@ -4053,6 +4064,7 @@ input[type=button].btn-block {
 .navbar-expand-sm > .container-xl {
     padding-right: 0;
     padding-left: 0;
+    
   }
 }
 @media (min-width: 576px) {
@@ -4161,6 +4173,7 @@ input[type=button].btn-block {
 .navbar-expand-lg > .container-lg,
 .navbar-expand-lg > .container-xl {
     flex-wrap: nowrap;
+    
   }
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -4568,6 +4581,7 @@ input[type=button].btn-block {
   padding-left: 0;
   list-style: none;
   border-radius: 0.5rem;
+  
 }
 
 .page-link {
@@ -4576,7 +4590,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -0.125rem;
   line-height: 1.25;
-  color: #1abc9c;
+  color: #ffffff;
   background-color: #fff;
   border: 0.125rem solid #dee2e6;
 }
@@ -6067,7 +6081,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: white !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6077,7 +6091,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #dddddd !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10029,51 +10043,67 @@ h3 {
   padding-bottom: 1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  
+  
+
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color: #0294BD;
+  
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
+  
+  
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #0294BD;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #0294BD;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #0294BD;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #0294BD;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  
 }
+
 
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+    
+    
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: font-size 0.3s;
+    
   }
   #mainNav .navbar-nav {
     margin-top: 0;
+    
   }
+
+  /*
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+    color: #0294BD;
+    background: #0294BD;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #1abc9c;
+    color: #0294BD;
+    background: #0294BD;
   }
+
+  */
 
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -10090,12 +10120,15 @@ h3 {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  color: #BD5D02;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  color: black;
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  
 }
 
 @media (min-width: 992px) {
@@ -10128,7 +10161,7 @@ h3 {
   background-color: rgba(26, 188, 156, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 100;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
@@ -10194,7 +10227,7 @@ h3 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #1abc9c;
+  color: #BD5D02;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10208,6 +10241,11 @@ form .row:first-child .floating-label-form-group {
   color: #fff;
 }
 
+
+/*  A CONSIDERARSE EN UN FUTURO 
+
 .copyright {
-  background-color: #1a252f;
+  background-color: #7a3535;
 }
+
+*/
